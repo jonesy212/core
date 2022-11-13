@@ -200,3 +200,4 @@ This iteration of the Lens Protocol implements a transparent upgradeable proxy f
 
 This does come with a few caveats, for instance, the `ModuleGlobals` contract implements a currency whitelist, but it is not upgradeable, so the "removal" of a currency whitelist in a module would require a specific new module that does not query the `ModuleGlobals` contract for whitelisted currencies.
 # core
+# core
